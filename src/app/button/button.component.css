@@ -1,0 +1,8 @@
+.btn-cont{
+    width: 100wv;
+    display: flex;
+    align-items: center;
+}
+#button{
+    margin: auto;
+}

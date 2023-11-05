@@ -1,0 +1,7 @@
+.packages{
+    display: flex;
+    gap: 30px;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+}

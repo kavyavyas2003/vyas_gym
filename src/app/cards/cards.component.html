@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Add your CSS and other head content here -->
+  </head>
+
+  <body>
+    <div class="cards" data-aos="fade-up" data-aos-duration="1000000">
+      <div
+        class="card1"
+        style="width: 18rem"
+        data-aos="fade-left"
+        data-aos-duration="10000"
+      >
+        <img
+          src="../assets/gym2.jpg"
+          class="card-img-top"
+          alt="..."
+          height="200px"
+        />
+        <div class="card-body" data-aos="fade-up" data-aos-duration="1000000">
+          <h5 class="card-title">FREE CONSULTATION</h5>
+          <p class="card-text">
+            A new membership with TEMPLE OF IRON includes a free fitness
+            consultation to get you started on the right foot.
+          </p>
+          <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+        </div>
+      </div>
+      <div
+        class="card2"
+        style="width: 18rem"
+        data-aos="fade-left"
+        data-aos-duration="10000"
+      >
+        <img
+          src="../assets/cate7.jpg"
+          class="card-img-top"
+          alt="..."
+          height="300px"
+        />
+        <div class="card-body" data-aos="fade-up" data-aos-duration="1000000">
+          <h5 class="card-title">BEST TRAINING</h5>
+          <p class="card-text">
+            Whether you’re looking to shed pounds or add bulk, here’s how to
+            tailor your workout to help you reach your fitness goals.
+          </p>
+          <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+        </div>
+      </div>
+      <div
+        class="card3"
+        style="width: 18rem"
+        data-aos="fade-left"
+        data-aos-duration="10000"
+      >
+        <img
+          src="../assets/1month.jpeg"
+          class="card-img-top"
+          alt="..."
+          height="200px"
+        />
+        <div class="card-body" data-aos="fade-up" data-aos-duration="1000000">
+          <h5 class="card-title">BUILD PERFECT BODY</h5>
+          <p class="card-text">
+            Want to build a body with the look of your dreams, but not sure
+            where to start? We will help you to build the perfect body shape.
+          </p>
+          <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+        </div>
+      </div>
+      <div
+        class="card4"
+        style="width: 18rem"
+        data-aos="fade-left"
+        data-aos-duration="10000"
+      >
+        <img
+          src="../assets/dietplan.jpeg"
+          class="card-img-top"
+          alt="..."
+          height="250px"
+        />
+        <div class="card-body" data-aos="fade-up" data-aos-duration="1000000">
+          <h5 class="card-title">DIET PLAN</h5>
+          <p class="card-text">
+            A high-protein diet is essential for building muscle. Our trainers
+            will guide you with a diet plan in the most efficient way.
+          </p>
+          <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Your JavaScript code -->
+    <script>
+      $(document).ready(function () {
+        $("p").hover(function () {
+          var paragraph = $(this);
+          setTimeout(function () {
+            paragraph.hide(1000); // Hide with a 1-second animation
+          }, 1000);
+
+          // Show the paragraph after another 1 second
+          setTimeout(function () {
+            paragraph.show(1000); // Show with a 1-second animation
+          }, 2000);
+        });
+      });
+    </script>
+  </body>
+</html>

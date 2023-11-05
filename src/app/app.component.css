@@ -1,0 +1,21 @@
+
+
+img{
+    border-radius: 100%;
+}
+.container-fluid {
+    
+    transition: transform 1s; /* Apply a smooth transition effect */
+  }
+  
+  /* Define the hover effect */
+  .container-fluid a:hover {
+    transform: scale(1.3); /* Scale the image up by 10% on hover */
+    cursor: pointer; /* Change the cursor to a pointer to indicate interactivity */
+  }
+  .navbar navbar-expand-lg bg-body-tertiary{
+    position: fixed;
+  }
+  #nav{
+    position: fixed;
+  }

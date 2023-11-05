@@ -1,0 +1,129 @@
+.cards{
+    
+    margin:100px ;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+
+    cursor: pointer;
+    
+}
+
+
+p
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+black 0%,
+    grey 29%,
+    beige 67%,
+    black 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 19px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+.cards img {
+  width: 300px; /* Set the width and height to your preferred size */
+  height: 200px;
+  transition: transform 0.2s; /* Apply a smooth transition effect */
+}
+
+/* Define the hover effect */
+.cards img:hover {
+  transform: scale(1.1); /* Scale the image up by 10% on hover */
+  cursor: pointer; /* Change the cursor to a pointer to indicate interactivity */
+}
+.cards{
+  
+  transition: transform 0.2s;
+
+}
+.cards p:hover{
+  transform: scale(1.1); /* Scale the image up by 10% on hover */
+  cursor: pointer; 
+}
+.card-img-top{
+  margin: 20px;
+}
+.card-text{
+  text-align: center;
+}
+h5{
+  text-align: center;
+  font-weight: bold;
+}
+
+/* div {
+  /* animation properties */
+  /* animation-name: my-animation; */
+  /* animation-duration: 2s;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; */
+
+  /* other properties */
+  /* width: 300px;
+  height: 100px;
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+/* @keyframes my-animation {
+  from {
+    background-color: #ff7a59;
+    width: 300px;
+    left: 10px; /* Change 'top' to 'left' to move horizontally */
+  /* } */
+  /* to {
+    background-color: #33475b;
+    width: 50px;
+    left: 100px; /* Change 'top' to 'left' to move horizontally */
+  /* }
+} */ 
+/* .card1{
+  background-color:black;
+  
+  
+}
+.card2{
+  background-color: gray;
+ 
+
+}
+.card3{
+  background-color:black;
+ 
+}
+.card4{
+  background-color: gray;
+  
+
+} */
+h5{
+  margin-bottom: 10px;
+}
+
+

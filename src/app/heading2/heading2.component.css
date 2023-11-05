@@ -1,0 +1,45 @@
+
+		
+		body {
+			overflow: hidden;
+			justify-content: center;
+			align-items: center;
+			height: 10vh;
+			display: flex;
+			padding: 30px 30px 30px 30px;
+			margin: 50px 50px 50px 50px ;
+		}
+
+		h1 {
+			font-size: 50px;
+			white-space: nowrap;
+			overflow: hidden;
+			animation: typewriter 2s steps(13) infinite alternate,
+				blink 800ms steps(13) infinite normal;
+			border-right: 5px solid black;
+			font-family: 'Times New Roman', Times, serif;
+		}
+
+		@keyframes typewriter {
+			from {
+				width: 0%;
+			}
+
+			to {
+				width: 50%;
+			}
+		}
+
+		@keyframes blink {
+			from {
+				border-color: black;
+			}
+
+			to {
+				border-color: transparent;
+			}
+		}
+	
+
+
+

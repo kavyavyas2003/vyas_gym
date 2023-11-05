@@ -1,0 +1,14 @@
+img{
+    opacity: 80%;
+}
+p{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+btn btn-primary:hover{
+    background: blue;
+    border-radius: 6px;
+    translate: Y();
+
+}
